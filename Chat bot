@@ -47,14 +47,15 @@ def test():
     while True:
         answer = input()
         if answer == "1":
-            print('Completed, have a nice day!')
+            print('Congratulations, have a nice day!')
             break
         else:
             print("Please, try again.")
 
 
 def end():
-    print('Congratulations, have a nice day!')
+    print()
+    print('Completed, have a nice day!')
 
 
 greet('Comby', '2021')  # change it as you need
